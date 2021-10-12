@@ -4,6 +4,7 @@ import {HttpService} from "../../../service/http/http.service";
 import {ActivatedRoute, Router} from "@angular/router";
 import {BaseComponent} from "../base-component";
 import {HttpClient} from "@angular/common/http";
+import {DialogService} from "../../../service/dialog/dialog.service";
 
 @Component({
   selector: 'app-test',
@@ -12,12 +13,12 @@ import {HttpClient} from "@angular/common/http";
 })
 export class LoginComponent extends BaseComponent{
   email = '';
-  pasword='';
+  password='';
 
   errorMessage: any;
   forgotPasswordClicked = false;
   user:any;
-  constructor(private http: HttpClient ,httpService: HttpService,private router: Router, private  activatedRoute: ActivatedRoute) {
+  constructor(private http: HttpClient ,httpService: HttpService,private router: Router, private  activatedRoute: ActivatedRoute, private  dialogService: DialogService) {
     super(httpService);
   }
 
@@ -33,14 +34,14 @@ export class LoginComponent extends BaseComponent{
   }
   async login() {
     console.log('ddsfs');
-    if (!this.email || !this.pasword) {
+    if (!this.email || !this.password) {
 
       return;
     }
 
 
     try {
-      let loginResponse = await this.httpService.login(this.email, this.pasword);
+      let loginResponse = await this.httpService.login(this.email, this.password);
       console.log(loginResponse);
 
       await this.router.navigateByUrl('/');
@@ -53,18 +54,22 @@ export class LoginComponent extends BaseComponent{
 
 //register
   async register() {
-    if (!this.email || !this.pasword) {
-
+    if (!this.email===null || !this.password===null) {
+      await this.dialogService.showOkDialog("please enter email and password");
       return;
     }
     try {
 
-      let registerResponse = await this.httpService.register(this.email, this.pasword);
+
+      let registerResponse = await this.httpService.register(this.email, this.password);
+      console.log(this.email);
+      console.log(this.password);
       console.log(registerResponse);
 
+      await this.dialogService.showOkDialog("please enter email and password");
 
-
-      //await this.router.navigateByUrl('/');
+      await this.router.navigateByUrl('/');
+      await this.dialogService.showOkDialog("please enter email and password");
     } catch (e) {
       console.log('register error', e);
     }

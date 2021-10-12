@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5650f4f3-8e9c-4c9d-8712-ccc343c7ddb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/ok-dialog/ok-dialog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/ok-dialog/ok-dialog.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/ok-dialog/ok-dialog.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/ok-dialog/ok-dialog.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/yes-no-dialog/yes-no-dialog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/yes-no-dialog/yes-no-dialog.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/yes-no-dialog/yes-no-dialog.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/yes-no-dialog/yes-no-dialog.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/service/dialog/dialog.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/service/dialog/dialog.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-appart/src/service/guard/auth-guard.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-appart/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-appart/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-appart/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-appart/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-appart/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/ok-dialog/ok-dialog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/app/components/dialogs/ok-dialog/ok-dialog.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-appart/src/app/components/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/app/components/login/login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-appart/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/app/components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-appart/src/service/dialog/dialog.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/service/dialog/dialog.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-appart/src/service/http/http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-appart/src/service/http/http.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +43,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Users\hodaia\Desktop\appart\angular-appart\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -69,8 +62,16 @@
       <option name="presentableId" value="Default" />
       <updated>1633368708394</updated>
       <workItem from="1633368709733" duration="6466000" />
-      <workItem from="1633451541261" duration="15370000" />
+      <workItem from="1633451541261" duration="22858000" />
+      <workItem from="1633953711890" duration="11380000" />
     </task>
+    <task id="LOCAL‎00001" summary="hi">
+      <created>1633634510391</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1633634510391</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,8 +79,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="hi" />
+    <option name="LAST_COMMIT_MESSAGE" value="hi" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633949020277">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1633949020277" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633988079422">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1633988079422" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1633634506237">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1633634506237" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1633456385497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -92,25 +107,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="503" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1633625956024" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1633634239827">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1634024814987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633634239827" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1633634239827">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634024814987" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1634024814987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1633634239827" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1633634239827">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1634024814987" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1634024814986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1633634239827" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1633634239827">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1634024814986" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1634024814987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1633634239827" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1633629616364">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1634024814987" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1633952569776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1633629616364" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1633952569776" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1633634514971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1633634514971" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1634065372857">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1634065372857" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1633953840389">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1633953840389" />
   </component>
 </project>

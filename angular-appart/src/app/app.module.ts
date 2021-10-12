@@ -12,7 +12,6 @@
 // import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {LoginComponent} from './components/login/login.component';
@@ -29,6 +28,9 @@ import {YesNoDialogComponent} from './components/dialogs/yes-no-dialog/yes-no-di
 import { MatDialogModule } from '@angular/material/dialog';
 
 
+// @ts-ignore
+// @ts-ignore
+// @ts-ignore
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,6 +52,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     BrowserAnimationsModule,
     MatDialogModule,
   ],
+
   providers: [HttpClientModule ],
   bootstrap: [AppComponent]
 })

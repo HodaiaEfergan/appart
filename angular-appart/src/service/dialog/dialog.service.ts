@@ -14,7 +14,7 @@ export class DialogService {
   }
 
 
-  showOkDialog(message) {
+  showOkDialog(message: any) {
     let ref = this.dialog.open(OkDialogComponent, {
       data: {
         message: message
@@ -22,7 +22,7 @@ export class DialogService {
     });
   }
 
-  async showYesNoDialog(message) {
+  async showYesNoDialog(message: any) {
 
     let ref = this.dialog.open(YesNoDialogComponent, {
       data: {
