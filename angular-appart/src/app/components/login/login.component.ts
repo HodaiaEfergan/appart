@@ -13,7 +13,7 @@ import {DialogService} from "../../../service/dialog/dialog.service";
 })
 export class LoginComponent extends BaseComponent{
   email = '';
-  password='';
+  password = '';
 
   errorMessage: any;
   forgotPasswordClicked = false;
@@ -35,7 +35,7 @@ export class LoginComponent extends BaseComponent{
   async login() {
     console.log('ddsfs');
     if (!this.email || !this.password) {
-
+      await this.dialogService.showOkDialog("please enter email and password");
       return;
     }
 
@@ -46,7 +46,7 @@ export class LoginComponent extends BaseComponent{
 
       await this.router.navigateByUrl('/');
     } catch (e) {
-
+      await this.dialogService.showOkDialog("user not found");
       console.log('login error', e);
     }
 
@@ -54,7 +54,7 @@ export class LoginComponent extends BaseComponent{
 
 //register
   async register() {
-    if (!this.email===null || !this.password===null) {
+    if (!this.email || !this.password) {
       await this.dialogService.showOkDialog("please enter email and password");
       return;
     }
@@ -65,11 +65,8 @@ export class LoginComponent extends BaseComponent{
       console.log(this.email);
       console.log(this.password);
       console.log(registerResponse);
-
-      await this.dialogService.showOkDialog("please enter email and password");
-
       await this.router.navigateByUrl('/');
-      await this.dialogService.showOkDialog("please enter email and password");
+      await this.dialogService.showOkDialog("user saved");
     } catch (e) {
       console.log('register error', e);
     }
