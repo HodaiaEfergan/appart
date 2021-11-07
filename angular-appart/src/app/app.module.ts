@@ -26,6 +26,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {OkDialogComponent} from './components/dialogs/ok-dialog/ok-dialog.component';
 import {YesNoDialogComponent} from './components/dialogs/yes-no-dialog/yes-no-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { SearchComponent } from './components/search/search.component';
+import { MainComponent } from './components/main/main.component';
 
 
 // @ts-ignore
@@ -37,6 +39,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     LoginComponent,
     YesNoDialogComponent,
     OkDialogComponent,
+    SearchComponent,
+    MainComponent,
 
   ],
   entryComponents: [

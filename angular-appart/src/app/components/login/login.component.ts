@@ -33,7 +33,7 @@ export class LoginComponent extends BaseComponent{
     };
   }
   async login() {
-    console.log('ddsfs');
+    console.log('login function');
     if (!this.email || !this.password) {
       await this.dialogService.showOkDialog("please enter email and password");
       return;
@@ -41,10 +41,13 @@ export class LoginComponent extends BaseComponent{
 
 
     try {
+      console.log('login function1');
       let loginResponse = await this.httpService.login(this.email, this.password);
+      console.log('login function2');
       console.log(loginResponse);
-
-      await this.router.navigateByUrl('/');
+      console.log("hi");
+      await this.router.navigateByUrl('/search');
+      console.log("hi1");
     } catch (e) {
       await this.dialogService.showOkDialog("user not found");
       console.log('login error', e);
@@ -65,8 +68,9 @@ export class LoginComponent extends BaseComponent{
       console.log(this.email);
       console.log(this.password);
       console.log(registerResponse);
-      await this.router.navigateByUrl('/');
+
       await this.dialogService.showOkDialog("user saved");
+
     } catch (e) {
       console.log('register error', e);
     }
